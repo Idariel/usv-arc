@@ -69,7 +69,7 @@ Things you may want to cover:
         * licence_nb:integer
         * email:string
         * adresse1:string
-        * adresse1lstring
+        * adresse2:string
         * code_postal:integer (5nb)
         * facebook_name:string
         * club-member:boolean
