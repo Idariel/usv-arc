@@ -1,15 +1,26 @@
 <div id="header">
+
 	<div class="element1 white bold">
-		<p id="title-logo">US Villejuif Tir à l'Arc</p>
-		<!-- logos -->
+		<%= image_tag("logo USV.png", size: "100x100", alt: "Cat for President!") %>
+	</div>
+
+	<div class="header1">
+		<div class="element1 white bold">
+			<p id="title-logo">US Villejuif Tir à l'Arc</p>
+			<!-- logos -->
+		</div>
+
+		<div class="element1 white bold">
+			<p><%= link_to "S'inscrire", members_new_path %></p> <!-- à remplacer par new_member_registration_path quand ça sera fait -->
+		</div>
+
+		<div class="element1 white bold">
+			<p><%= link_to 'Se connecter', members_show_path %></p> <!-- à remplacer par new_member_session_path quand ça sera fait -->
+		</div>
 	</div>
 
 	<div class="element1 white bold">
-		<p><%= link_to "S'inscrire", members_new_path %></p> <!-- à remplacer par new_member_registration_path quand ça sera fait -->
-	</div>
-
-	<div class="element1 white bold">
-		<p><%= link_to 'Se connecter', members_show_path %></p> <!-- à remplacer par new_member_session_path quand ça sera fait -->
+		<%= image_tag("logoUSVofficiel.png", size: "80x80", alt: "Cat for President!") %>
 	</div>
 
 </div>
