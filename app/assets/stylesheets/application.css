@@ -116,8 +116,17 @@ a:hover{
 .bg-white{
 	background-color: #FFFFFF;
 }
-.bg-white{
-	background-color: #FFFFFF;
+.bg-red{
+	background-color: #ff0000;
+}
+.bg-yellow{
+	background-color: #ffff00;
+}
+.bg-black{
+	background-color: #000000;
+}
+.bg-lime{
+	background-color: #00ff00;
 }
 
 /*=== FONTS ===*/
