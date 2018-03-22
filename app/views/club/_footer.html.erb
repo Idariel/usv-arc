@@ -1,28 +1,33 @@
 <div id="footer">
-	<div class="element1 white bold">
-		<%= image_tag("logoUSVofficiel.png", size: "40x40", alt: "Cat for President!") %>
+
+	<div class="footer1">
+		<div class="element1 white bold">
+			<%= image_tag("logoUSVofficiel.png", size: "40x40", alt: "Cat for President!") %>
+		</div>
+
+		<div class="element1 white bold">
+			<p>US Villejuif TAA</p>
+			<!-- logo officiel uniquement -->
+		</div>
+
+		<div class="element1 white bold">
+			<p><%= link_to 'Contact', club_contact_path %></p>
+		</div>
+
+		<div class="element1 white bold">
+			<p><%= link_to 'A propos', club_about_path %></p>
+		</div>
 	</div>
 
-	<div class="element1 white bold">
-		<p>US Villejuif TAA</p>
-		<!-- logo officiel uniquement -->
-	</div>
+	<div class="footer2">
+			<div class="element1 white bold">
+				<p>Site en cours de réalisation par Isabelle Lechat</p>
+			</div>
 
-	<div class="element1 white bold">
-		<p><%= link_to 'Contact', club_contact_path %></p>
-	</div>
-
-	<div class="element1 white bold">
-		<p><%= link_to 'A propos', club_about_path %></p>
-	</div>
-
-	<div class="element1 white bold">
-		<p>Site en cours de réalisation par Isabelle Lechat</p>
-	</div>
-
-	<div class="element1 white bold">
-		<%= image_tag("gummitch-space-r.jpg", size: "40x40", alt: "Cat for President!") %>
-		<!-- retrouver gummitch (carte de visite) -->
+		<div class="element1 white bold">
+			<%= image_tag("gummitch-space-r.jpg", size: "40x40", alt: "Cat for President!") %>
+			<!-- retrouver gummitch (carte de visite) -->
+		</div>
 	</div>
 
 </div>

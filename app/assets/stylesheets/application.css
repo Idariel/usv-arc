@@ -42,17 +42,40 @@ html, body{
 	margin-bottom: 0px;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
 	background-color: #003cb3;
 	padding: 0px;
 	margin: 0;
 	height: 50px;
 }
+.footer1{
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0px;
+	margin: 0;
+	height: 50px;
+}
+.footer2{
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0px;
+	margin: 0;
+	height: 50px;
+	font-style: italic;
+	font-size: 0.8em;
+	font-weight: normal;
+}
 #image-titre{
 	margin-top: 0;
 	width: 100%;
-	height: 200px;
+	height: 290px;
 	background-color: #CCCCCC;
 	border-bottom: #FFFFFF solid 20px;
 }
@@ -127,6 +150,9 @@ a:hover{
 }
 .bg-lime{
 	background-color: #00ff00;
+}
+.bg-lightlime{
+	background-color: #ccff99;
 }
 
 /*=== FONTS ===*/
